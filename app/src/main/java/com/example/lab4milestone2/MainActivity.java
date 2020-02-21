@@ -114,11 +114,11 @@ public class MainActivity extends AppCompatActivity {
                 if (listAddresses.get(0).getSubThoroughfare() != null) {
                     address += listAddresses.get(0).getSubThoroughfare() + " ";
                 }
-                if (listAddresses.get(0).getSubThoroughfare() != null) {
-                    address += listAddresses.get(0).getSubThoroughfare() + "\n";
+                if (listAddresses.get(0).getThoroughfare() != null) {
+                    address += listAddresses.get(0).getThoroughfare() + "\n";
                 }
                 if (listAddresses.get(0).getLocality() != null) {
-                    address += listAddresses.get(0).getSubThoroughfare() + "\n";
+                    address += listAddresses.get(0).getLocality() + "\n";
                 }
                 if (listAddresses.get(0).getPostalCode() != null) {
                     address += listAddresses.get(0).getPostalCode() + "\n";
